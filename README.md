@@ -4,6 +4,8 @@
 Bem-vindo ao meu repositório de exercícios de lógica de programação!
 Este repositório contém uma coleção de exercícios que eu resolvi como parte do meu aprendizado em lógica de programação com Java.
 
+## Caso queira resolver os exercicios antes de conferi-los aqui:
+https://drive.google.com/drive/folders/1T3PZD66A_dhpG8rjscuwPYKGwGgxHxWt
 ## Organização
 
 - Os exercícios estão agrupados em pastas por categorias.
