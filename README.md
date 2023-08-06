@@ -9,7 +9,7 @@ https://drive.google.com/drive/folders/1T3PZD66A_dhpG8rjscuwPYKGwGgxHxWt
 ## Organização
 
 - Os exercícios estão agrupados em pastas por categorias.
-- Cada pasta contém enunciados e soluções em diversas linguagens.
+- Cada pasta contém enunciados e soluções com a linguagem Java.
 
 ## Como Usar
 
