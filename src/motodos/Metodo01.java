@@ -9,10 +9,10 @@ import java.util.Scanner;
 public class Metodo01 {
 
 	public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
+    Scanner sc = new Scanner(System.in);
         
         System.out.print("Digite uma palavra: ");
-        String palavra = scanner.nextLine();
+        String palavra = sc.nextLine();
         
         if (isPalindromo(palavra)) {
             System.out.println(palavra + " é um palíndromo!");
@@ -20,7 +20,7 @@ public class Metodo01 {
             System.out.println(palavra + " não é um palíndromo.");
         }
         
-        scanner.close();
+        sc.close();
     }
     
     static boolean isPalindromo(String palavra) {
