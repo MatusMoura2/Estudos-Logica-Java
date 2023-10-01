@@ -19,6 +19,7 @@ public class While01 {
 
 		}
 
+		sc.close();
 	}
 
 }

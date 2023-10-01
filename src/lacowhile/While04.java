@@ -1,11 +1,11 @@
 /*Escreva um programa Java, para imprimir todas Tabuadas de 3 números de entrada. 
-1° Número inicial, 2° Número final, 3° N° Tabela a ser calculado*/
+1° Número inicial, 2° Número final, 3° N° Tabela a ser calculado na Ordem Reversa.*/
 
 package lacowhile;
 
 import java.util.Scanner;
 
-public class While03 {
+public class While04 {
 
 	public static void main(String[] args) {
 
@@ -18,7 +18,7 @@ public class While03 {
 		int resultado2;
 		int resultado3;
 
-		System.out.println("Quais numeros você quer a tabuada?");
+		System.out.println("Quais numeros você quer a tabuada na ordrm reversa?");
 		System.out.print("Digite o primeiro numero: ");
 		num1 = sc.nextInt();
 
@@ -29,37 +29,38 @@ public class While03 {
 		num3 = sc.nextInt();
 
 		System.out.println();
-		int i = 1;
-		while (i <= 10) {
+		int i = 10;
+		while (i >= 1) {
 			resultado1 = num1 * i;
 
 			System.out.println(num1 + " x " + i + " = " + resultado1);
-			i++;
+			i--;
 
 		}
 
 		System.out.println();
-		i = 1;
-		while (i <= 10) {
+		i = 10;
+		while (i >= 1) {
 			resultado2 = num2 * i;
 
 			System.out.println(num2 + " x " + i + " = " + resultado2);
 
-			i++;
+			i--;
 
 		}
 
 		System.out.println();
-		i = 1;
-		while (i <= 10) {
+		i = 10;
+		while (i >= 1) {
 			resultado3 = num3 * i;
 
 			System.out.println(num3 + " x " + i + " = " + resultado3);
 
-			i++;
+			i--;
 
 		}
 		sc.close();
 	}
+
 
 }

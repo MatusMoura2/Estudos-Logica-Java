@@ -23,7 +23,7 @@ public class While02 {
 			contador--;
 
 		}
-
+		sc.close();
 	}
 
 }
