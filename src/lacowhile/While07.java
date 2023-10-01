@@ -1,3 +1,4 @@
+
 package lacowhile;
 
 public class While07 {
@@ -6,7 +7,9 @@ public class While07 {
 		int num = 1;
 
 		while (num <= 100) {
-			System.out.print(num + " ");
+			if (num % 2 == 0) {
+				System.out.print(num + " ");
+			}
 			num++;
 		}
 	}
