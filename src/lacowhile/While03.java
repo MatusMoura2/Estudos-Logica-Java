@@ -1,5 +1,4 @@
-/*Escreva um programa Java, para imprimir todas Tabuadas de 3 números de entrada. 
-1° Número inicial, 2° Número final, 3° N° Tabela a ser calculado*/
+/*Escreva um programa Java, para imprimir todas Tabuadas de 3 números de entrada.*/
 
 package lacowhile;
 
