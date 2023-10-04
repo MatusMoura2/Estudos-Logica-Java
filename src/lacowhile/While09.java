@@ -9,7 +9,7 @@ public class While09 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int num;
-		int soma = 0;
+		long soma = 0;
 		int loop = 1;
 		System.out
 				.print("Esse programa faz a soma de um até um número, em qual numero você quer terminar o contador? ");
