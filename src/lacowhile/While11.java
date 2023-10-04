@@ -1,10 +1,10 @@
-
 /*Escreva um programa Java, para encontrar a 
- * soma de todos os números pares entre 1 e N.*/
+ * soma de todos os números impares entre 1 e N.*/
 package lacowhile;
+
 import java.util.Scanner;
 
-public class While10 {
+public class While11 {
 
 	public static void main(String[] args) {
 
@@ -19,12 +19,12 @@ public class While10 {
 
 		if (num > 1) {
 			while (loop <= num) {
-				if (loop % 2 == 0) 
+				if (loop % 2 == 1) 
 					soma += loop;
 					loop++;
 				
 			}
-			System.out.printf("A soma dos números pares entre 1 e %d é %d", num, soma);
+			System.out.printf("A soma dos números impares entre 1 e %d é %d", num, soma);
 		} else {
 			System.out.println("O numero tem que ser maior do que 1");
 		}
