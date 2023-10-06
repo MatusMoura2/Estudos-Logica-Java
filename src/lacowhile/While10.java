@@ -28,6 +28,7 @@ public class While10 {
 		} else {
 			System.out.println("O numero tem que ser maior do que 1");
 		}
+		sc.close();
 	}
 
 }
