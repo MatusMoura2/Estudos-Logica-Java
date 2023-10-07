@@ -3,7 +3,7 @@ package lacowhile;
 
 import java.util.Scanner;
 
-public class Whille12 {
+public class While12 {
 
 	public static void main(String[] args) {
 		
