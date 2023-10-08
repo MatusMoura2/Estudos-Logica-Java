@@ -24,7 +24,7 @@ public class While15 {
 		}
 		
 		System.out.printf("%s ao contrario é %s.",digitos,resultado);
-
+		sc.close();
 	}
 
 }

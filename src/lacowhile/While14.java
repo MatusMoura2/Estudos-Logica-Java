@@ -14,21 +14,21 @@ public class While14 {
 		int potencia;
 		long resultado = 1l;
 
-		System.out.print("Escolha um numero para ser elevado a uma potencia: ");
+		System.out.print("Escolha um numero para ser elevado a uma potência: ");
 		num = sc.nextInt();
 
-		System.out.print("Escolha a potençia: ");
+		System.out.print("Escolha a potência: ");
 		potencia = sc.nextInt();
 
 		int i = 0;
 		while (i < potencia) {
 			resultado *= num;
 			i++;
-			
+
 		}
 
-		System.out.println(num + " elevado a "+ potencia+"° é " + resultado);
-
+		System.out.println(num + " elevado a " + potencia + "° potência é " + resultado + ".");
+		sc.close();
 	}
 
 }

@@ -2,7 +2,7 @@
  * e retorna true se a string for um palíndromo 
  * (ou seja, lê-se da mesma forma de trás para frente) 
  * e false caso contrário.*/
-package motodos;
+package metodos;
 
 import java.util.Scanner;
 
