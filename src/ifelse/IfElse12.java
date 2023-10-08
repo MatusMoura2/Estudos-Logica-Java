@@ -31,6 +31,7 @@ public class IfElse12 {
 		}else {
 			System.out.println("Digite numeros inteiros!");
 		}
+		sc.close();
 	}
 
 }
