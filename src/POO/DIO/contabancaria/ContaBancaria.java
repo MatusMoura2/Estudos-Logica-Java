@@ -45,9 +45,12 @@ public class ContaBancaria {
   public static void main(String[] args) {
     // Lendo os dados de Entrada:
     Scanner scanner = new Scanner(System.in);
+    System.out.print("Digite o numero da conta: ");
     int numeroConta = scanner.nextInt();
     scanner.nextLine(); // Consome a quebra de linha após a entrada do número da conta
+    System.out.print("Qual o nome do titular da conta: ");
     String nomeTitular = scanner.nextLine();
+    System.out.print("Qual o saldo da conta? ");
     double saldo = scanner.nextDouble();
 
     // Criar uma instância de "ContaBancaria" com os valores de Entrada.
