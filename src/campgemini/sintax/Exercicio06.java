@@ -28,7 +28,7 @@ public class Exercicio06 {
 		} else {
 			System.out.printf("as variaveis %d e %d são iguais", a, b);
 		}
-		
+		sc.close();
 	}
 
 }

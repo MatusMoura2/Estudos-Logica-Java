@@ -18,6 +18,8 @@ public class Exercicio07 {
 		fahrenheit = (9*celsius+160)/5;
 		
 		System.out.println(celsius+"° convertido para fharenheit fica "+fahrenheit+"°F");
+		
+		sc.close();
 
 	}
 

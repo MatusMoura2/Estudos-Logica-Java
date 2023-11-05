@@ -25,6 +25,7 @@ public class Exercicio03 {
 		}else {
 			System.out.println("A medis de consumo do seu veiculo é de: "+(kmRodado/litrosConsumidos)+" por km!");
 		}
+		sc.close();
 
 	}
 

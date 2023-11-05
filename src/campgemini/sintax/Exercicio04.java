@@ -27,6 +27,7 @@ public class Exercicio04 {
 		System.out.println("olá " + nome + " o seu salario fixo é de " + salarioFixio
 				+ "porem com a sua comissão o seu salario no final do mês será de " + (salarioFixio + (vendas * 0.15)));
 
+		sc.close();
 	}
 
 }

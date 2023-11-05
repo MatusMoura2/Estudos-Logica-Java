@@ -28,6 +28,8 @@ public class Exercicio01 {
 
 		System.out.println();
 		System.out.print("O resultado da soma entre " + num1 + " e " + num2 + " é " + resultado);
+		
+		sc.close();
 
 	}
 
