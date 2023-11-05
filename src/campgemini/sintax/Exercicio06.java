@@ -24,7 +24,7 @@ public class Exercicio06 {
 			int ab = a;
 			a = a - a + b;
 			b = b - b + ab;
-			System.out.print("agora a= " + a + " e b= " + b);
+			System.out.printf("agora a= %d e b= %d",a,b);
 		} else {
 			System.out.printf("as variaveis %d e %d são iguais", a, b);
 		}
