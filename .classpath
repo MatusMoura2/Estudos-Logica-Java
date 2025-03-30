@@ -5,7 +5,8 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry excluding="streamselambdas/" kind="src" path="src"/>
-	<classpathentry kind="src" path="src/streamselambdas"/>
+	<classpathentry excluding="streamselambdas/|streamselambdas/stramsecollections/" kind="src" path="src"/>
+	<classpathentry excluding="stramsecollections/" kind="src" path="src/streamselambdas"/>
+	<classpathentry kind="src" path="src/streamselambdas/stramsecollections"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
